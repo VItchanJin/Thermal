@@ -87,8 +87,8 @@ Maria=db_connection.Maria_conn
 
 try:   
     with Maria.cursor() as cur:
-        Query = "INSERT INTO Temp_Data (TIME, MAXTEMP, MINTEMP, AVGTEMP, DAY, HOUR) VALUES (%s,%s,%s,%s,%s,%s)"        
-        Query2= "INSERT INTO TEMP_TEXT_DATA (TEMPTIME, IMGTEXT, TEMPDAY, TEMPHOUR) VALUES (%s,%s,%s,%s)" 
+        Query = "INSERT INTO Temp_Data (TIME, MAXTEMP, MINTEMP, AVGTEMP, DAY, HOUR) VALUES (%s,%s,%s,%s,%s,%s)"
+           
         while True:
             with Lepton() as l:
                 a,_ = l.capture()
