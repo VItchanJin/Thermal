@@ -74,8 +74,10 @@ def raw_to_8bit(data):
 
 #온도값 데이터베이스에 저장
 def MariaDB_temp(deg_db, min_deg_db, avg_deg_db):    
-    print ("{:%Y.%m.%d %H:%M:%S}".format(datetime.now())+ " MaxTemp = {0:.1f} C".format(deg_db)+" MinTemp = {0:.1f} C".format(min_deg_db)+" AvgTemp = {0:.1f} C".format(avg_deg_db))          
-    Values = [("{:%Y.%m.%d %H:%M:%S}".format(datetime.now()),deg_db, min_deg_db, avg_deg_db, "{:%Y%m%d}".format(datetime.now()), "{:%H%M%S}".format(datetime.now()))]   
+    print ("{:%Y.%m.%d %H:%M:%S}".format(datetime.now())+ " MaxTemp = {0:.1f} C".format(deg_db)+" 
+           MinTemp = {0:.1f} C".format(min_deg_db)+" AvgTemp = {0:.1f} C".format(avg_deg_db))          
+    Values = [("{:%Y.%m.%d %H:%M:%S}".format(datetime.now()),deg_db, min_deg_db, avg_deg_db, 
+               "{:%Y%m%d}".format(datetime.now()), "{:%H%M%S}".format(datetime.now()))]   
     cur.executemany(Query,Values)
     Maria.commit()
     time.sleep(10)      
