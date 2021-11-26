@@ -25,7 +25,7 @@
 - python 3버전
 - opencv 설치 : pip install opencv-python
 - opencv contrib 설치 : pip install opencv-contrib-python
-- Lepton.py 설치 : 비트 버킷 src 디렉토리 내부 Lepton.py
+- Lepton.py 설치 : 비트 버킷 src 디렉토리 내부 Lepton.py(수정 및 업데이트 금지)
 
 ***
 
