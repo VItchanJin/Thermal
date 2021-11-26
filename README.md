@@ -1,8 +1,8 @@
 # 열화상 감시 시스템
 ##
-
+***
 - Lepton.py 수정 금지
-
+***
 ### 참조사이트
 
 - https://picamera.readthedocs.io/en/release-1.13/recipes1.html
