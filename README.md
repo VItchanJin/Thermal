@@ -1,6 +1,6 @@
 # 열화상 감시 시스템
 ###
--Lepton.py수정 금지(라이브러리 에러로 실행안됨)
++Lepton.py수정 금지(라이브러리 에러로 실행안됨)
 ### 참조사이트
 
 - https://picamera.readthedocs.io/en/release-1.13/recipes1.html
